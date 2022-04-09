@@ -1,8 +1,16 @@
 # TECHFLIX
+ Desenvolvi um projeto para o Bootcamp do Carrefour na Digital Innovation One, onde recriei a Netflix com conteúdos de Tecnologia (mais especificamente conteúdo para Desenvolvedores Web que é onde eu estudo e atuo).
 
-## Desenvolvi um projeto para o Bootcamp do Carrefour na Digital Innovation One, onde recriei a Netflix com conteúdos de Tecnologia (mais especificamente conteúdo para Desenvolvedores Web que é onde eu estudo e atuo).
 
-O projeto tem sido bem interessante, pois tenho aplicado e visto na prática assuntos que tenho estudado recentemente.
-Está sendo desenvolvido, até o momento, em HTML, CSS e jQuery.
+## Tecnologias usadas:
+➡ Html<br>
+➡ CSS<br>
+➡ Javascript<br>
+➡ jQuery
 
-Em breve atualizo as informações do projeto, como print da tela inicial e link do site.
+## Meus próximos objetivos para este projeto:
+Botão 'mais informações': Adicionar uma pagina onde deverá detalhar Ano, sinopse do filme e imagens .<br>
+Após clicar no filme desejado, mostra-lo na classe "filme-principal".<br>
+Criar páginas para a barra de navegação.
+
+## Screenshots
