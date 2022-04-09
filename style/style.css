@@ -48,7 +48,8 @@ header nav a:hover{
 
 .filme-principal{
   font-size: 16px;
-  background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url("/img/filme-principal.jpg");
+  /* background-image: linear-gradient(to left, rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url("/img/filme-principal.jpg"); */
+  background-image: linear-gradient(to left, rgba(0,0,0,0),rgba(0,0,0,.8)), url("/img/filme-principal.jpg");
   height: 600px;
   background-size: cover;
   display: flex;
@@ -59,6 +60,7 @@ header nav a:hover{
 
 .container{ /* Da o mesmo margin pra tudo que tenha class container - */
   margin-left: 70px;
+
 }
 
 .filme-principal .container{
@@ -129,14 +131,31 @@ header nav a:hover{
 /* ------ MEDIA QUERIES ---------*/
 
 @media (max-width:700px){
+  .container{
+    margin: 0 5px;
+  }
+  
   header .container{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  header nav a{
+    margin-right: 10px;
   }
 
   .botao{
     margin-top: 5px;
     width: 200px;
+  }
+
+  .filme-principal .container{
+    margin-left: 20px;
+  }
+
+  .carrosel-filmes .titulo-carrosel{
+    margin-left: 20px;
   }
 }
 
